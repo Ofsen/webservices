@@ -1,0 +1,16 @@
+{
+  "name": "webservices-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"cd front-dz && npm run dev\" \"cd o-auth-services-dz && npm run dev\" \"cd bdd-api-service-dz && npm run dev\" \"cd web-metrics-service-dz && npm run dev\" \"cd ai-server && uvicorn main:app --reload\" \"cd payment-handler-services-dz && npm run dev\" \"cd notification-sms-service-dz && npm run dev\"",
+    "dev": "concurrently --kill-others \"cd front-dz && npm run dev\" \"cd o-auth-services-dz && npm run dev\" \"cd bdd-api-service-dz && npm run dev\" \"cd payment-handler-services-dz && npm run debug\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

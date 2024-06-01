@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  o-auth-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: o-auth-service
+    ports:
+      - "3000:3000"

@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  front-dz:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: front-dz
+    ports:
+      - "5173:4173"
+

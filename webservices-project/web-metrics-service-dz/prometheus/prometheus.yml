@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 60s
+  evaluation_interval: 60s
+
+scrape_configs:
+  - job_name: "prometheus"
+    static_configs:
+      - targets:
+          [
+            "ofsen.io:9090",
+            "ofsen.io:3000",
+            "ofsen.io:3001",
+            "ofsen.io:3002",
+            "ofsen.io:3008",
+            "ofsen.io:3011",
+          ]

@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  bdd-api-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bdd-api-service
+    ports:
+      - "3001:3001"

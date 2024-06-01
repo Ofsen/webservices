@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  ia-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ia-service
+    ports:
+      - "3003:3003"

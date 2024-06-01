@@ -1,0 +1,8 @@
+fastapi==0.110.2
+librosa==0.10.1
+transformers==4.38.2
+uvicorn==0.29.0
+python-multipart==0.0.9
+prometheus-fastapi-instrumentator==7.0.0
+prometheus_client==0.20.0
+moviepy==1.0.3

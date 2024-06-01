@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.plan-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .plan-card:first-of-type {
+    margin-top: 2rem;
+  }
+  
+  .plan-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .plan-description {
+    margin-bottom: 20px;
+  }
+  
+  .current-plan {
+    color: #DB2677;
+    font-weight: bold;
+  }
+
+  .currPlanCard {
+    border-color: #DB2677;
+    border-width: 0.2rem;
+  }
+  
+  .subscribe-button {
+    background-color: #DB2677;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .payment-form {
+    margin-top: 20px;
+  }
+  
+  
+  .payment-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .payment-button {
+    background-color: #DB2677;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .cancel-plan-button {
+    background-color: #DB2677;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
